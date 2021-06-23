@@ -88,7 +88,7 @@ main {
     background-color: #fff;
 
     padding: 2.5rem;
-    border-radius: 20px;
+    border-radius: 10px;
 
     width: 600px;
     max-width: 100%;
@@ -341,7 +341,6 @@ li {
     }
 
     main {
-        border-radius: 10px;
         padding: 8%;
     }
 
