@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+
+	<header class="main-header">
+		<h1 class="main-heading">Simple, traffic-based pricing</h1>
+		<p class="main-para">Sign-up for our 30-day trial.<span class="main-header-break"><br></span> No credit card
+			required.
+		</p>
+	</header>
+
+	<main>
+		<section>
+			<header class="header">
+				<div class="pageviews"> <span id="pageview-count">100K</span> Pageviews</div>
+
+				<div class="price-chart">
+					<span id="price-count">$16.00</span> / month
+				</div>
+			</header>
+
+			<div class="slide-bar">
+				<input type="range" id="slider" min="1" max="5">
+				<div class="slider-bg"></div>
+			</div>
+
+			<div class="billing">
+				Monthly Billing
+
+				<input type="checkbox" name="switch" id="btn">
+				<label class="toggle-btn" for="btn"></label>
+
+				Yearly Billing <span class="discount">25% <span id="discount-text"> discount</span></span>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="last-section">
+			<div class="features">
+				<ul>
+					<li> Unlimited websites</li>
+					<li> 100% data ownership</li>
+					<li> Email reports</li>
+				</ul>
+			</div>
+
+			<button class="trial-btn">Start my trial</button>
+		</section>
+	</main>
+
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="https://github.com/vatsalsinghkv">Vatsal Singh</a>.
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script>
+
+	</script>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
