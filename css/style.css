@@ -133,10 +133,6 @@ main {
     -webkit-appearance: none;
 }
 
-#slider:focus {
-    outline: none;
-}
-
 #slider::-webkit-slider-thumb {
     -webkit-appearance: none;
 
@@ -152,12 +148,6 @@ main {
     transition: all .25s;
     z-index: 5;
     position: relative;
-}
-
-#slider::-webkit-slider-thumb:hover,
-#slider::-webkit-slider-thumb:focus {
-    /* background-color: var(--slide-bar-bg); */
-    outline: none;
 }
 
 .slider-bg {
@@ -193,7 +183,7 @@ main {
     height: 25px;
     margin: 0 10px;
 
-    background-color:var(--toggle-bg);
+    background-color: var(--toggle-bg);
     border-radius: 20px;
 
     cursor: pointer;
