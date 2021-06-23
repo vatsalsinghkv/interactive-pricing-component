@@ -170,7 +170,6 @@ main {
 
     position: absolute;
     background-color: var(--slide-bar);
-    z-index: 1;
 }
 
 #slider::-webkit-slider-runnable-track {
