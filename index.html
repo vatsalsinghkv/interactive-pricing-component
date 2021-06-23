@@ -26,7 +26,7 @@
 	</header>
 
 	<main>
-		<section>
+		<div>
 			<header class="header">
 				<div class="pageviews"> <span id="pageview-count">100K</span> Pageviews</div>
 
@@ -36,7 +36,8 @@
 			</header>
 
 			<div class="slide-bar">
-				<input type="range" id="slider" min="1" max="5">
+				<input type="range" name="slider" id="slider" min="1" max="5" value="3" role="slider" aria-valuemin="1"
+					aria-valuemax="5" aria-valuenow="3">
 				<div class="slider-bg"></div>
 			</div>
 
@@ -48,11 +49,11 @@
 
 				Yearly Billing <span class="discount">25% <span id="discount-text"> discount</span></span>
 			</div>
-		</section>
+		</div>
 
 		<hr>
 
-		<section class="last-section">
+		<div class="last-section">
 			<div class="features">
 				<ul>
 					<li> Unlimited websites</li>
@@ -62,7 +63,7 @@
 			</div>
 
 			<button class="trial-btn">Start my trial</button>
-		</section>
+		</div>
 	</main>
 
 	<div class="attribution">
