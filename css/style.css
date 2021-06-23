@@ -256,6 +256,9 @@ hr {
     padding: 5px 10px;
     margin-left: 10px;
     border-radius: 20px;
+    
+    position: relative;
+    top: -5px;
 }
 
 /* FEATURES */
@@ -356,6 +359,10 @@ li {
         margin: 80px 0 0 0;
     }
 
+    .discount {
+        margin: 0;
+    }
+
     #toggle-btn {
         margin: 0;
     }
@@ -384,5 +391,22 @@ li {
     .trial-btn {
         padding: 1rem 4rem;
         margin: 20px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    body {
+        margin: 0 8%;
+    }
+
+    main {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 11px;
     }
 }
