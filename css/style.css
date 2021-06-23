@@ -14,16 +14,6 @@
     --main-text: hsl(227, 35%, 25%);
 }
 
-* {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    outline: none;
-}
-
 body {
     background: url("../images/bg-pattern.svg") var(--main-bg) no-repeat;
     background-size: contain;
@@ -52,8 +42,16 @@ p {
     font-size: 0.95rem;
 }
 
-input, label {
+input, label, button {
     -webkit-tap-highlight-color: transparent;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
 }
 
 input:focus {
