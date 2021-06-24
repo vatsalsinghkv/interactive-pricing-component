@@ -122,7 +122,7 @@ body {
 
 ```html
 <input type="checkbox" name="switch" id="btn">
-				<label class="toggle-btn" for="btn"></label>
+<label class="toggle-btn" for="btn"></label>
 ```
 ```css
 .toggle-btn {
@@ -221,7 +221,7 @@ $toggleBtn.change(() => {
 
 ### Useful resources
 
-- [TheNetNija Youtube](https://www.youtube.com/c/TheNetNinja) - This helped me learn jQuery, GitHub, CSS Grid. This guy is legend there's lot of stuff to learn, which I will be learning in future.
+- [TheNetNinja Youtube](https://www.youtube.com/c/TheNetNinja) - This helped me learn jQuery, GitHub, CSS Grid. This guy is legend there's lot of stuff to learn, which I will be learning in future.
 - [GeeksForGeeks](https://www.geeksforgeeks.org/) - This is amazing website for articles, snippets, projects, algorithms etc.
 - [MDN Docs](https://developer.mozilla.org/en-US/) - This is an amazing reference which helped me finally understand detailed concepts like data- attr, aria attr, input range etc.
 
